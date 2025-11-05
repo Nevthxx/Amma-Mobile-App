@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pagebkg7"
+    android:padding="16dp">
+
+    <!-- Pregnancy Start Date Display -->
+    <TextView
+        android:id="@+id/tvPregnancyDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Pregnancy Start Date: --"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <!-- Pick Pregnancy Start Date Button -->
+    <Button
+        android:id="@+id/btnPickDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/medium_pink"
+        android:text="Pick Pregnancy Start Date"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregnant mums should attend at least 8 antenatal clinic visits at government health institutions.\nAdditional visits may be needed for high-risk pregnancies.\nVisits are spaced throughout pregnancy to monitor maternal and fetal health.\n"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clinic Check List"
+        android:textColor="@color/dark_pink"
+        android:textSize="20sp"/>
+
+    <!-- Clinic Visit List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerVisits"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "800203736935",
+    "project_id": "amma-a",
+    "storage_bucket": "amma-a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800203736935:android:b39688a423b1f6903051c2",
+        "android_client_info": {
+          "package_name": "com.example.amma_a"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDot00_-texlvYz_RCwZV8NfsLobmqKpyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
